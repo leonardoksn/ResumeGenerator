@@ -1,11 +1,14 @@
 import os
 from jinja2 import Environment, FileSystemLoader
 import json
+import locale
 import yaml
 from datetime import datetime
 import argparse
 import re
 from weasyprint import HTML, CSS
+
+locale.setlocale(locale.LC_TIME, "pt_BR.UTF-8")
 
 
 # Resume + Template Constants

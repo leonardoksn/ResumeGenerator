@@ -1,0 +1,110 @@
+settings:
+  includeSkills: true
+  includeProjects: true
+basics:
+  name: Leonardo K. Nunes
+  label: Programador
+  email: leonardo.ksn@gmail.com
+  phone: '(47) 99177-8297'
+  website: 'https://leoknunes.netlify.app/'
+  location:
+    address: null
+    postalCode: null
+    city: Itapema
+    countryCode: BR
+    region: Santa Catarina
+    regionCode: SC
+  htmlTitle: Software Engineer
+rofiles:
+  - website: Gmail
+    username: leonardo.ksn@gmail.com
+    url: 'mailto:leonardo.ksn@gmail.com'
+    html: >-
+      <a href='leonardo.ksn@gmail.com' title='Email me'> <span
+      class='fa-stack fa-lg'> <i class='fa fa-circle fa-stack-2x'></i> <i
+      class='fa fa-envelope fa-stack-1x fa-inverse'></i> </span> </a>
+  - website: Github
+    username: leonardoksn
+    url: 'https://github.com/leonardoksn'
+    html: >-
+      <a href='https://github.com/leonardoksn' title='Github'> <span
+      class='fa-stack fa-lg'> <i class='fa fa-circle fa-stack-2x'></i> <i
+      class='fa fa-github fa-stack-1x fa-inverse'></i> </span> </a>
+  - website: LinkedIn
+    username: arashout
+    url: 'https://www.linkedin.com/in/leonardo-k-nunes/'
+    html: >-
+      <a href='https://www.linkedin.com/in/leonardo-k-nunes/' title='LinkedIn'> <span
+      class="fa-stack fa-lg"> <i class="fa fa-circle fa-stack-2x"></i> <i
+      class="fa fa-linkedin fa-stack-1x fa-inverse"></i> </span> </a>
+  - website: Resume
+    username: Leonardo
+    url: >-
+      https://github.com/leonardoksn/leonardoksn
+    html: >-
+      <a
+      href="https://github.com/leonardoksn/leonardoksn"
+      title="PDF Resume"> <span class="fa-stack fa-lg"> <i class="fa fa-circle
+      fa-stack-2x"></i> <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+      </span> </a>
+experiences:
+  - company: Grupo Koch
+    position: Software Engineer
+    startDate: 2023-06-09T00:00:00.000Z
+    endDate: 2023-08-15T00:00:00.000Z
+    summary: Desenvolver aplicações web, integração com empresas terceiras, criação de APIs e microserviços, criação de documentação e documentação de APIs e gerenciamento de deploy CICD
+    highlights:
+      - Desenvolvimento de um app de separação de itens em um pedido de compra
+      - Aplicação de gerenciamento de tarefas de auditoria para as lojas do Grupo Koch
+      - Aplicação de entrega de pedidos de e-commerce
+      - Dashboard de monitoramento de paletes e cargas para facilitar a gestão dos processos de separação e entrega
+      - API's e microserviços para integração com a Tlantic
+      - Criação dinâmica de romaneios e relatórios tanto de pedidos quanto de embarques para fácil acompanhamento de processos
+    technologies:
+    - Nodejs
+    - Typescript
+    - React
+    - Vue
+    - Nextjs
+    - OracleDb
+education:
+  - institution: Instituto Federal catarinense
+    location:
+      city: Camboriú
+      regionCode: SC
+    studyType: Bacharelado em Sistemas de Informação
+    area: Ciência da Computação
+    startDate: 2019-02-07T00:00:00.000Z
+    endDate: 2020-02-07T00:00:00.000Z
+projects:
+  - name: App de separação de pedidos e TMS para E-commerce
+    # source: 'https://github.com/arashout/JobBot'
+    summary: >-
+      Sistema de gerenciamento de tarefas de auditoria para as lojas do Grupo Koch
+      Criação de tarefas automáticas de conferência de gôndola, preço, estoque e etc. 
+      Dashboard de acompanhamento de tarefas em real time 
+      O usuário pode criar tarefas e acompanhar o andamento das mesmas 
+      Impressão de um relatório com todos os dados das tarefas necessário de acordo com o modulo da tarefa 
+      Impressão de etiquetas de preços 
+      Agrupar várias tarefas em uma mesma tarefa - Consulta de itens em tempo real buscando informações de preço, estoque, entrada, saída, etc.
+    technologies:
+      - Nodejs
+      - Typescript
+      - React
+  - name: Sistema de Gestão de loja
+    # source: 'https://github.com/arashout/ImprovedUBCTranscript'
+    # writeup: 'http://arashout.site/posts/improved-ubc-transcript'
+    summary: >-
+        Criação de tarefas automáticas de conferência de gôndola, preço, estoque e etc. 
+        Dashboard de acompanhamento de tarefas em real time 
+        O usuário pode criar tarefas e acompanhar o andamento das mesmas 
+        Impressão de um relatório com todos os dados das tarefas necessário de acordo com o modulo da tarefa 
+        Impressão de etiquetas de preços 
+        Agrupar várias tarefas em uma mesma tarefa - Consulta de itens em tempo real buscando informações de preço, estoque, entrada, saída, etc.
+    technologies:
+      - Nodejs
+      - Nextjs
+      - TRPC
+      - oracledb
+      - shadcn/ui
+      - tailwindcss
